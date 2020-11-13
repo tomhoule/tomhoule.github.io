@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>maths on Tom Houle&#39;s blog</title>
-    <link>https://tomhoule.github.io/tags/maths/</link>
+    <link>https://www.tomhoule.com/tags/maths/</link>
     <description>Recent content in maths on Tom Houle&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 13 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://tomhoule.github.io/tags/maths/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 13 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://www.tomhoule.com/tags/maths/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Leaning into Spivak&#39;s Calculus (2/?)</title>
-      <link>https://tomhoule.github.io/spivak_chapter_1/</link>
+      <link>https://www.tomhoule.com/spivak_chapter_1/</link>
       <pubDate>Fri, 13 Nov 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://tomhoule.github.io/spivak_chapter_1/</guid>
+      <guid>https://www.tomhoule.com/spivak_chapter_1/</guid>
       <description>This is a follow up to a first post, where I wrote down my impressions as I just started working on the problems from Michael Spivak&amp;rsquo;s Calculus (3rd ed.) with the Lean theorem prover.
 A few months later, I finished writing Lean proofs for all the problems in chapter 1.
 After the expected period of familiarization with Lean and mathlib, what I hoped for is what happened: at this point, for the problems I am solving, the hard part is the maths, not the theorem prover.</description>
@@ -20,10 +20,10 @@ After the expected period of familiarization with Lean and mathlib, what I hoped
     
     <item>
       <title>Spivak&#39;s Calculus — basic properties of numbers (1/?)</title>
-      <link>https://tomhoule.github.io/intro/</link>
+      <link>https://www.tomhoule.com/intro/</link>
       <pubDate>Sun, 31 May 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://tomhoule.github.io/intro/</guid>
+      <guid>https://www.tomhoule.com/intro/</guid>
       <description>On n’écrit qu’à la pointe de son savoir, à cette pointe extrême qui sépare notre savoir et notre ignorance, et qui fait passer l’un dans l’autre. C’est seulement de cette façon qu’on est déterminé à écrire.
 (Différence et répétition, towards the beginning)
  They say the right time to write about something is while learning. I just got through Theorem proving in Lean — tons of fun, warmly recommended — and now feels like the time to see what I can do with it.</description>
