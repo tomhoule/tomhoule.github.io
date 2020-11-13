@@ -8,7 +8,7 @@
     <language>en-us</language>
     <lastBuildDate>Fri, 13 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://www.tomhoule.com/tags/spivak-calculus/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Leaning into Spivak&#39;s Calculus (2/?)</title>
+      <title>Leaning into Spivak&#39;s Calculus</title>
       <link>https://www.tomhoule.com/spivak_chapter_1/</link>
       <pubDate>Fri, 13 Nov 2020 00:00:00 +0000</pubDate>
       
@@ -19,7 +19,7 @@ After the expected period of familiarization with Lean and mathlib, what I hoped
     </item>
     
     <item>
-      <title>Spivak&#39;s Calculus — basic properties of numbers (1/?)</title>
+      <title>Spivak&#39;s Calculus — basic properties of numbers</title>
       <link>https://www.tomhoule.com/intro/</link>
       <pubDate>Sun, 31 May 2020 00:00:00 +0000</pubDate>
       
