@@ -274,12 +274,47 @@
               <a href="https://www.tomhoule.com/tags/spivak-calculus/">spivak-calculus</a>
             </li>
           
+            <li>
+              <svg class="tag-icon" aria-hidden="true" viewBox="0 0 177.16535 177.16535" focusable="false">
+                <use xlink:href="#tag"></use>
+              </svg>
+              
+              <a href="https://www.tomhoule.com/tags/lean/">lean</a>
+            </li>
+          
         </ul>
       </div>
     
     
     
       
+
+  <nav class="toc" aria-labelledby="toc-heading">
+    <h2 id="toc-heading">Table of contents</h2>
+    <ol>
+      
+        <li>
+          
+          
+          
+          
+          <a href="#writing-down-the-problems">
+            Writing down the problems
+          </a>
+        </li>
+      
+        <li>
+          
+          
+          
+          
+          <a href="#general-advice">
+            General advice
+          </a>
+        </li>
+      
+    </ol>
+  </nav>
 
 
     
@@ -291,14 +326,61 @@ impressions as I just started working on the problems from Michael Spivak&rsquo;
 <p>After the expected period of familiarization with Lean and
 mathlib, what I hoped for is what happened: <strong>at this point, for the problems I
 am solving, the hard part is the maths, not the theorem prover</strong>.</p>
+<h2 id="writing-down-the-problems">Writing down the problems</h2>
+<p>Some problems took some thinking to translate from natural language into Lean.</p>
+<p>Take problem 24 (c):</p>
+<blockquote>
+<p>Let <code>s(a_{1},...,a_{k})</code> be some sum formed from <code>a_{1},...,a_{k}</code>. Show that
+$$s(a_{1},&hellip;,a_{k}) = a_{1} + &hellip; + a_{k}$$</p>
+</blockquote>
+<p>The &ldquo;some sum&rdquo; part is open to interpretation. It could mean different ordering
+of the terms, or different precedence. I went with precedence, and wrote the
+following proof</p>
+<pre><code class="language-lean">-- For any list of lists of sums, show that the sum of the list_sum's is equal
+-- to the list_sum of the concatenated lists. This shows the precedent of
+-- additions does not matter.
+def part_c : ∀ (sums : list (list ℝ)), list_sum (list.join sums) = sums.foldl running_list_sum 0
+| [] := rfl
+| (head::tail) := by {
+    let consed := list.cons head tail,
+    have ih : list_sum (list.join tail) = tail.foldl running_list_sum 0, from part_c tail,
+    have left : list_sum (list.join consed) = list_sum head + list_sum (list.join tail), from (
+        calc
+        list_sum (list.join (head::tail)) = list_sum (head ++ list.join tail) : rfl
+        ... = list_sum head + list_sum (list.join tail) : (part_b head (list.join tail)).symm
+    ),
+    have right : consed.foldl running_list_sum 0 = list_sum head + tail.foldl running_list_sum 0, from (
+      calc
+      consed.foldl running_list_sum 0 = tail.foldl running_list_sum (0 + list_sum head) : rfl
+      ... = tail.foldl running_list_sum (list_sum head) : by rw [zero_add]
+      ... = list_sum head + tail.foldl running_list_sum 0 : foldl_running_list_assoc tail (list_sum head)
+    ),
+    rw [&lt;-ih] at right,
+    exact eq.trans left (eq.symm right)
+}
+</code></pre>
+<p>(Helper functions have been omitted. See the source repository for the full proof.)</p>
+<p>One of the tougher examples came up towards the beginning, in part (v) of problem 1:</p>
+<blockquote>
+<p>(v) $$ x^{n} - y^{n} = (x - y) (x^{n-1} + x^{n-2}y + &hellip; + xy^{n-2} +
+y^{n-1})$$</p>
+</blockquote>
+<p>This required figuring things out about <code>choose</code> that belong in chapter 2, and
+also how to use a recursive dependent function type to express the middle
+terms.</p>
+<p>Another example of this were problems of the form <em>&ldquo;Find all numbers x for
+which&rdquo;</em>, like problem 11. I did not realize at first that what was really meant,
+was proofs of the form <code>abs (x+3) &lt; 2 ↔ x &lt; -1 ∧ x &gt; -5</code>.</p>
+<h2 id="general-advice">General advice</h2>
 <ul>
-<li>The Zulip channel is extremely valuable</li>
-<li>Read mathlib code</li>
-<li>Writing down the problem is sometimes the hardest part: problem 1 c, problem
-24 c.</li>
-<li>At this point, what I hoped for happened: the hard part is the maths, not the
-lean.</li>
-<li>Using real instead of a type class</li>
+<li>The Lean community Zulip chat server is extremely valuable.</li>
+<li>Getting familiar with the mathlib structure and the available modules is
+important. Don&rsquo;t be afraid to read the source. Exploring tactics you don&rsquo;t
+know always pays off. I stumbled on tactics that improve ergonomics a lot like
+<code>rcases</code>, <code>rintros</code> and <code>refine</code> quite late.</li>
+<li>Use concrete types if you do not care about generality. I did the
+exercises for fields at the beginning, but after discovering <code>norm_num</code>,
+proving with ℝ parameters turned out easier.</li>
 </ul>
 
   </main>
