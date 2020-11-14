@@ -6,27 +6,16 @@
     <description>Recent content in lean on Tom Houle&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 13 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://www.tomhoule.com/tags/lean/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 14 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://www.tomhoule.com/tags/lean/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Leaning into Spivak&#39;s Calculus</title>
-      <link>https://www.tomhoule.com/spivak-calculus-basic-properties-of-numbers-retrospective/</link>
-      <pubDate>Fri, 13 Nov 2020 00:00:00 +0000</pubDate>
+      <link>https://www.tomhoule.com/leaning-into-calculus-chapter-1/</link>
+      <pubDate>Sat, 14 Nov 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://www.tomhoule.com/spivak-calculus-basic-properties-of-numbers-retrospective/</guid>
-      <description>This is a follow up to a first post, where I wrote down my impressions as I just started working on the problems from Michael Spivak&amp;rsquo;s Calculus (3rd ed.) with the Lean theorem prover.
-A few months later, I finished writing Lean proofs for all the problems in chapter 1.
-After the expected period of familiarization with Lean and mathlib, what I hoped for is what happened: at this point, for the problems I am solving, the hard part is the maths, not the theorem prover.</description>
-    </item>
-    
-    <item>
-      <title>Spivak&#39;s Calculus — basic properties of numbers</title>
-      <link>https://www.tomhoule.com/spivak-calculus-basic-properties-of-numbers/</link>
-      <pubDate>Sun, 31 May 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.tomhoule.com/spivak-calculus-basic-properties-of-numbers/</guid>
-      <description>On n’écrit qu’à la pointe de son savoir, à cette pointe extrême qui sépare notre savoir et notre ignorance, et qui fait passer l’un dans l’autre. C’est seulement de cette façon qu’on est déterminé à écrire.
-(Différence et répétition, towards the beginning)
- They say the right time to write about something is while learning. I just got through Theorem proving in Lean — tons of fun, warmly recommended — and now feels like the time to see what I can do with it.</description>
+      <guid>https://www.tomhoule.com/leaning-into-calculus-chapter-1/</guid>
+      <description>This post contains three updates at different points in time on formalizing chapter 1 of Michael Spivak&amp;rsquo;s Calculus book and its problems in Lean.
+You can find the proofs on GitHub.
+ Just starting  On n’écrit qu’à la pointe de son savoir, à cette pointe extrême qui sépare notre savoir et notre ignorance, et qui fait passer l’un dans l’autre. C’est seulement de cette façon qu’on est déterminé à écrire.</description>
     </item>
     
   </channel>
