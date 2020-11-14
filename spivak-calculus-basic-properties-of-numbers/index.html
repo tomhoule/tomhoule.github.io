@@ -6,12 +6,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
   <meta name="generator" content="Hugo 0.78.2" />
-  <link rel="canonical" href="https://www.tomhoule.com/">
+  <link rel="canonical" href="https://www.tomhoule.com/spivak-calculus-basic-properties-of-numbers/">
 
-  
-    
-      <meta name="description" content=".">
-    
   
 
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
@@ -36,9 +32,7 @@
 
   
   
-    
-  
-  <title>Tom Houle&#39;s blog</title>
+  <title>Spivak&#39;s Calculus — basic properties of numbers | Tom Houle&#39;s blog</title>
 </head>
 
   <body>
@@ -161,7 +155,7 @@
       
       
       
-      <a href="/" aria-current="page">
+      <a href="/" >
         <svg class="bookmark-icon" aria-hidden="true" focusable="false" viewBox="0 0 40 50">
           <use xlink:href="#bookmark"></use>
         </svg>
@@ -174,7 +168,7 @@
       
       
       
-      <a href="/post/" >
+      <a href="/post/" aria-current="page">
         <svg class="bookmark-icon" aria-hidden="true" focusable="false" viewBox="0 0 40 50">
           <use xlink:href="#bookmark"></use>
         </svg>
@@ -243,17 +237,211 @@
         <div>
           
   <main id="main">
-    <h1>Tom Houle&#39;s homepage</h1>
+    <h1>
+      <svg class="bookmark-icon" aria-hidden="true" viewBox="0 0 40 50" focusable="false">
+        <use xlink:href="#bookmark"></use>
+      </svg>
+      Spivak&#39;s Calculus — basic properties of numbers
+    </h1>
+
+    <div class="date">
+      
+      
+      <strong aria-hidden="true">Publish date: </strong>2020-05-31
+      
+        
+      
+    </div>
+
+    
+      <div class="tags">
+        <strong aria-hidden="true">Tags: </strong>
+        <ul aria-label="tags">
+          
+            <li>
+              <svg class="tag-icon" aria-hidden="true" viewBox="0 0 177.16535 177.16535" focusable="false">
+                <use xlink:href="#tag"></use>
+              </svg>
+              
+              <a href="https://www.tomhoule.com/tags/maths/">maths</a>
+            </li>
+          
+            <li>
+              <svg class="tag-icon" aria-hidden="true" viewBox="0 0 177.16535 177.16535" focusable="false">
+                <use xlink:href="#tag"></use>
+              </svg>
+              
+              <a href="https://www.tomhoule.com/tags/spivak-calculus/">spivak-calculus</a>
+            </li>
+          
+            <li>
+              <svg class="tag-icon" aria-hidden="true" viewBox="0 0 177.16535 177.16535" focusable="false">
+                <use xlink:href="#tag"></use>
+              </svg>
+              
+              <a href="https://www.tomhoule.com/tags/lean/">lean</a>
+            </li>
+          
+        </ul>
+      </div>
+    
+    
+    
+      
+
+
+    
+
     <blockquote>
-<p><em>Quiche (/ˈkiːʃ/ KEESH) is a French tart consisting of pastry crust filled
-with savoury custard and pieces of cheese, meat, seafood or vegetables. The
-best-known variant is quiche Lorraine, which includes lardons or bacon. Quiche
-can be served hot or cold. It is popular
-worldwide.</em><a href="https://en.wikipedia.org/wiki/Quiche">¹</a></p>
+<p>On n’écrit qu’à la pointe de son savoir, à cette pointe extrême qui sépare
+notre savoir et notre ignorance, et qui fait passer l’un dans l’autre. C’est
+seulement de cette façon qu’on est déterminé à écrire.</p>
+<p>(<a href="https://en.wikipedia.org/wiki/Difference_and_Repetition"><em>Différence et
+répétition</em></a>, towards
+the beginning)</p>
 </blockquote>
-<p>Now you know. You were probably looking for the <a href="/post">blog</a>.</p>
+<p>They say the right time to write about something is while learning. I just got
+through <a href="https://leanprover.github.io/theorem_proving_in_lean/"><em>Theorem proving in
+Lean</em></a> — tons of fun,
+warmly recommended — and now feels like the time to see what I can do with it.</p>
+<p>I have Michael Spivak&rsquo;s <em>Calculus</em>, third edition, lying around at home. It
+should be accessible with a bit of help from the internet, so this is what
+I will attempt to go through. I expect nearly all of the book&rsquo;s content to be
+new to me.</p>
+<hr>
+<p>The first chapter is titled <em>Basic properties of numbers</em>. Its purpose is to
+reformulate and condense facts that the reader supposedly already knows.</p>
+<p>Twelve properties are treated. Four properties of addition:</p>
+<ol>
+<li>Associativity: $$ a + (b + c) = (a + b) + c $$</li>
+<li>Zero as the identity element: $$ a + 0 = 0 + a = a $$</li>
+<li>Addition of opposites: $$ a + (-a) = (-a) + a = 0 $$</li>
+<li>Commutativity: $$ a + b = b + a $$</li>
+</ol>
+<p>By now, subtraction is already defined, and two small proofs already carried
+out. I used the standard library&rsquo;s <code>int</code> module for the time being, but
+I suspect we&rsquo;ll have to switch to mathlib&rsquo;s real number module or something
+else, after I read a bit more about it.</p>
+<p>The next properties are about multiplication:</p>
+<ol start="5">
+<li>Associativity: $$ a \cdot (b \cdot c) = (a \cdot b) \cdot c $$</li>
+<li>One as the identity element: $$ a \cdot 1 = 1 \cdot a = a $$</li>
+<li>Multiplication of inverses:
+$$ \forall a, a ≠ 0 \to \exists a^{-1}, a \cdot a^{-1} = a^{-1} \cdot a = 1 $$</li>
+<li>Commutativity: $$ a \cdot b = b \cdot a $$</li>
+</ol>
+<p>Division is then defined in terms of multiplication. The part of property 7
+about <em>a</em> ≠ 0 explains why division by zero doesn&rsquo;t work (it has no meaningful
+inverse).</p>
+<p>At this point, I feel an itch to generalize this beyond integers. We&rsquo;re going to
+need at least real numbers, I figure. I start browsing Wikipedia:
+<a href="https://en.wikipedia.org/wiki/Group_(mathematics)">groups</a> aren&rsquo;t what we want
+(numbers under addition are a group, but not multiplication because it lacks
+invertibility). Next stop is
+<a href="https://en.wikipedia.org/wiki/Multiplication#Multiplication_of_different_kinds_of_numbers">multiplication</a>,
+which points me to the page on the <a href="https://en.wikipedia.org/wiki/Construction_of_the_real_numbers#Construction_from_Cauchy_sequences">construction of real
+numbers</a>,
+where I learn about <a href="https://en.wikipedia.org/wiki/Field_(mathematics)">ordered
+fields</a>. This is apparently
+what we want, and mathlib <a href="https://leanprover-community.github.io/mathlib-overview.html">apparently supports
+them</a>.</p>
+<p>I hope this attitude of digging just as deep as I need to in order to make
+progress is going to work out.</p>
+<p>After a little while digging into how to import mathlib (combination of using
+the right lean version in <code>leanpkg.toml</code>, learning the existence of <code>import</code>
+statements, and the right <code>leanpkg</code> invocations), <em>Note added later: use
+<code>leanproject</code> instead if you want to avoid mathlib compilation, it is very
+time-consuming</em>. I realize working with fields won&rsquo;t let you use convenient
+numeric notations. I try real numbers — appropriately located at
+<code>data.real.basic</code> in mathlib — only to realize that reflexivity doesn&rsquo;t work for
+things as simple as <code>5 - 3 = 2</code>. Looking at the source for the <code>data.real.basic</code>
+module, it seems like many definitions are non-computable. It makes sense,
+because real numbers aren&rsquo;t the floats we know and love, π isn&rsquo;t some
+approximation but really π, and we can&rsquo;t compute that. I don&rsquo;t know whether Lean
+can &ldquo;specialize&rdquo; computable instances automatically, and detect that even though
+<code>5</code> and <code>3</code> are real numbers in this context, <code>5 - 3</code> is computable. I&rsquo;d have to
+know more about representations of reals to know if it&rsquo;s a temporary limitation
+in mathlib or something deeper. So I go with rational numbers for the examples
+involving reflexivity. <code>α</code> is a field, rational numbers are a field, so it works
+out nicely.</p>
+<p>The consequences of the properties of multiplication give rise to two nice
+examples we can prove in Lean:</p>
+<pre><code class="language-lean">example : (a ≠ 0) → (a * b = a * c) → b = c :=
+assume hnzero h,
+    calc
+        b   = 1 * b : by rw one_mul
+        ... = (a⁻¹ * a) * b : by rw [inverse_mul α a hnzero]
+        ... = a⁻¹ * (a * b) : by rw [mul_assoc']
+        ... = a⁻¹ * (a * c) : by rw [h]
+        ... = c : by rw [mul_assoc', inverse_mul α a hnzero, one_mul]
+
+example : a ≠ 0 → (a * b = 0) → (a = 0 ∨ b = 0) :=
+assume hnzero h,
+or.inr $ calc
+    b = 1 * b : by rw one_mul b
+    ... = (a⁻¹ * a) * b : by rw [inverse_mul α a hnzero]
+    ... = a⁻¹ * (a * b) : by rw [mul_assoc']
+    ... = a⁻¹ * 0 : by rw h
+    ... = 0 : by rw mul_zero
+</code></pre>
+<p>I started by adding <code>decidable α</code> instance on top of <code>field α</code> to get
+<code>a = 0 ∨ ¬(a = 0)</code> for the second example. It felt like it should be possible to
+prove it without, but it seemed like even mathlib uses <code>classical</code> (see
+<code>mul_eq_zero'</code> in <code>group_with_zero.lean</code>, and <code>division_ring.to_domain</code> in
+<code>field.lean</code>). Then I noticed the book relies on <code>a ≠ 0</code> and added the hypothesis.</p>
+<ol start="9">
+<li>Distributivity: $$ a \cdot (b + c) = (a \cdot b) + (a \cdot c) $$</li>
+</ol>
+<p>For the <a href="TODO">next proof</a>, I needed a proof of <code>0 ≠ 2</code>, which I got to from
+<code>0 &lt; 2</code>, which required changing the instance of <code>field α</code> to
+<code>linear_ordered_field α</code>. That seems reasonable.</p>
+<p>Writing down the proof also made it clearer that the part that needs
+distributivity is <code>a + a = 2 * a</code>:</p>
+<pre><code class="language-lean">def add_self_eq_two_mul : a + a = 2 * a :=
+calc
+    a + a   = (a * 1) + a : by rw mul_one'
+        ... = (a * 1) + (a * 1) : by rw mul_one'
+        ... = a * (1 + 1) : by rw [←mul_distrib']
+        ... = a * 2 : by refl
+        ... = 2 * a : by rw mul_comm'
+</code></pre>
+<p><code>-a</code> can also be called an additive inverse. Interesting.</p>
+<p>&hellip;<em>ellipsis</em>&hellip;</p>
+<hr>
+<h3 id="2-weeks-later">2 weeks later</h3>
+<p>I continued going through the chapter step by step, and now starting the
+problems.</p>
+<ul>
+<li>Some patterns like &ldquo;divide both sides of the equation by the same amount&rdquo; do
+not translate easily to Lean. I had to learn to &ldquo;summon&rdquo; values, adding zero,
+then opposite, or multiplying by one, then inverse.</li>
+<li>Represent sequences with inductively defined functions (gizmo).</li>
+<li>A lot of function names to memorize</li>
+<li>I somehow find things easier to grasp through induction rules:
+<ul>
+<li><code>choose k n = choose k-1 n-1 + choose k n-1</code></li>
+<li><code>n! = n * (n-1)!</code></li>
+</ul>
+</li>
+<li>I had to figure out big operators and how to use finsets (present the 2-3
+functions needed for <code>next_gizmo</code>)</li>
+<li>For problem 3 (or 4? the one with inequalities), I had to figure out casts and
+<code>rwa</code>, <code>simpa</code>. Do the computable parts with integers, then cast to reals to
+work with square roots. Computations with real numbers were a pain at first,
+since they are not computable: you need to cast to something computable, like
+rational numbers, to make any progress. <em>This was all solved when I learned
+about the <code>norm_num</code> tactic</em>.</li>
+<li>library_search, squeeze_simp</li>
+<li><code>#lint</code> — it&rsquo;s quaint.</li>
+</ul>
+<p>I&rsquo;ll stop here now, and focus on solving the problems without worrying about
+whether this will make a good blog post.</p>
 
   </main>
+  <div id="disqus-container">
+  
+</div>
+
 
           <footer role="contentinfo">
   <div>
