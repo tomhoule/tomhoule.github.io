@@ -6,11 +6,20 @@
     <description>Recent content in Tags on Tom Houle&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 14 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://www.tomhoule.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 02 Apr 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://www.tomhoule.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>coq</title>
+      <link>https://www.tomhoule.com/tags/coq/</link>
+      <pubDate>Fri, 02 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.tomhoule.com/tags/coq/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>lean</title>
       <link>https://www.tomhoule.com/tags/lean/</link>
-      <pubDate>Sat, 14 Nov 2020 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 02 Apr 2021 00:00:00 +0000</pubDate>
       
       <guid>https://www.tomhoule.com/tags/lean/</guid>
       <description></description>
@@ -19,9 +28,18 @@
     <item>
       <title>maths</title>
       <link>https://www.tomhoule.com/tags/maths/</link>
-      <pubDate>Sat, 14 Nov 2020 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 02 Apr 2021 00:00:00 +0000</pubDate>
       
       <guid>https://www.tomhoule.com/tags/maths/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>software-foundations</title>
+      <link>https://www.tomhoule.com/tags/software-foundations/</link>
+      <pubDate>Fri, 02 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.tomhoule.com/tags/software-foundations/</guid>
       <description></description>
     </item>
     
