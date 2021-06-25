@@ -1,86 +1,52 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
     <loc>https://www.tomhoule.com/linear-logic-reading-list/</loc>
     <lastmod>2021-04-25T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.tomhoule.com/tags/linear-logic/</loc>
     <lastmod>2021-04-25T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.tomhoule.com/tags/logic/</loc>
     <lastmod>2021-04-25T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.tomhoule.com/post/</loc>
     <lastmod>2021-04-25T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.tomhoule.com/tags/</loc>
     <lastmod>2021-04-25T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.tomhoule.com/</loc>
     <lastmod>2021-04-25T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.tomhoule.com/tags/coq/</loc>
     <lastmod>2021-04-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.tomhoule.com/tags/lean/</loc>
     <lastmod>2021-04-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.tomhoule.com/logical-foundations-impressions/</loc>
     <lastmod>2021-04-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.tomhoule.com/tags/maths/</loc>
     <lastmod>2021-04-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.tomhoule.com/tags/software-foundations/</loc>
     <lastmod>2021-04-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.tomhoule.com/leaning-into-calculus-chapter-1/</loc>
     <lastmod>2020-11-14T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.tomhoule.com/tags/spivak-calculus/</loc>
     <lastmod>2020-11-14T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.tomhoule.com/about/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.tomhoule.com/categories/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.tomhoule.com/reading_lists/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.tomhoule.com/talks/</loc>
   </url>
-  
 </urlset>
