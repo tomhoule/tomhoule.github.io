@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>running on Tom Houle&#39;s homepage</title>
+    <link>https://www.tomhoule.com/tags/running/</link>
+    <description>Recent content in running on Tom Houle&#39;s homepage</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 05 Jun 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.tomhoule.com/tags/running/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Potsdam Schlösserlauf 2023, first half marathon</title>
+      <link>https://www.tomhoule.com/2023/race-report-potsdam-schloesserlauf-2023/</link>
+      <pubDate>Mon, 05 Jun 2023 00:00:00 +0000</pubDate>
+      <guid>https://www.tomhoule.com/2023/race-report-potsdam-schloesserlauf-2023/</guid>
+      <description>This is a race report, probably most interesting for myself looking back on it later, but hey, it&amp;rsquo;s writing practice.&#xA;The race Yesterday, I ran my first half marathon in Potsdam. It was a sunny day, around 20°C. I have done the distance in long runs before, so I knew I could finish if I didn&amp;rsquo;t go out too fast. The A goal was finishing under 2 hours, and the B goal was finishing with an even or nearly even split, not slowing down too much towards the end.</description>
+    </item>
+  </channel>
+</rss>

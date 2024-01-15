@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>coq on Tom Houle&#39;s homepage</title>
+    <link>https://www.tomhoule.com/tags/coq/</link>
+    <description>Recent content in coq on Tom Houle&#39;s homepage</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 02 Apr 2021 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.tomhoule.com/tags/coq/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Logical Foundations, Calculus, updates on learning (with) theorem provers</title>
+      <link>https://www.tomhoule.com/2021/logical-foundations-impressions/</link>
+      <pubDate>Fri, 02 Apr 2021 00:00:00 +0000</pubDate>
+      <guid>https://www.tomhoule.com/2021/logical-foundations-impressions/</guid>
+      <description>I just finished Logical Foundations, the first part of the Software Foundations series. Since last time on this blog, I also completed chapter 2 of Calculus, with the exercises (most of them) done in Lean 3.&#xA;This post is a loose collection of impressions and learnings from a few more months spent working with theorem provers on my spare time.&#xA;Logical Foundations First, Logical Foundations is just great. I picked it up to learn Coq mainly, and as the natural path to the exciting Programming Language Foundations.</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Latest posts on Tom Houle&#39;s homepage</title>
+    <link>https://www.tomhoule.com/blog/</link>
+    <description>Recent content in Latest posts on Tom Houle&#39;s homepage</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 16 Sep 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.tomhoule.com/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>strace with ChatGPT</title>
+      <link>https://www.tomhoule.com/2023/strace-with-chatgpt/</link>
+      <pubDate>Sat, 16 Sep 2023 00:00:00 +0000</pubDate>
+      <guid>https://www.tomhoule.com/2023/strace-with-chatgpt/</guid>
+      <description>Since ChatGPT is the trend of the moment, I had to check it out. There is a lot to say about it in general, but that won&amp;rsquo;t be the focus of this post.&#xA;Recently at work, a colleague asked how he could observe what files a process accesses, without modifying the program. Tracing tools like strace are the best answer I know to that question, and they apply to a lot more than observing file system access.</description>
+    </item>
+    <item>
+      <title>Readings in 2023 — early June edition</title>
+      <link>https://www.tomhoule.com/2023/2023-06-readings/</link>
+      <pubDate>Tue, 06 Jun 2023 00:00:00 +0000</pubDate>
+      <guid>https://www.tomhoule.com/2023/2023-06-readings/</guid>
+      <description>I haven&amp;rsquo;t been good at doing these lists and collecting what I read recently, let&amp;rsquo;s try to come back to it.&#xA;Nix Nix: Reasonable Default Configs, down to earth config options for the nix tool. dream2nix is a structured, systematic effort to build the infrastructure for the management of language-specific dependencies (think npm, pip, cargo dependencies) in nix derivations. The state of the art is that each ecosystem has its own tools (npmlock2nix, crane, &amp;hellip;), some of them integrated in nixpkgs, many not.</description>
+    </item>
+    <item>
+      <title>Potsdam Schlösserlauf 2023, first half marathon</title>
+      <link>https://www.tomhoule.com/2023/race-report-potsdam-schloesserlauf-2023/</link>
+      <pubDate>Mon, 05 Jun 2023 00:00:00 +0000</pubDate>
+      <guid>https://www.tomhoule.com/2023/race-report-potsdam-schloesserlauf-2023/</guid>
+      <description>This is a race report, probably most interesting for myself looking back on it later, but hey, it&amp;rsquo;s writing practice.&#xA;The race Yesterday, I ran my first half marathon in Potsdam. It was a sunny day, around 20°C. I have done the distance in long runs before, so I knew I could finish if I didn&amp;rsquo;t go out too fast. The A goal was finishing under 2 hours, and the B goal was finishing with an even or nearly even split, not slowing down too much towards the end.</description>
+    </item>
+    <item>
+      <title>March 2022 readings</title>
+      <link>https://www.tomhoule.com/2022/2022-03-readings/</link>
+      <pubDate>Thu, 31 Mar 2022 00:00:00 +0000</pubDate>
+      <guid>https://www.tomhoule.com/2022/2022-03-readings/</guid>
+      <description>Slow month, from the readings angle. But there&amp;rsquo;s been some side project movement I hope will result in something publishable and at least one blog post.&#xA;General Programming Re-watched &amp;ldquo;Performance Matters&amp;rdquo; by Emery Berger, strange loop 2019. Two tools to keep in mind for next time profiling:&#xA;STABILIZER tool to minimize the effect of memory layout on performance Causal profiling C-Reduce, paper and slides. Cool!&#xA;Databases The Adaptive Radix Tree: ARTful Indexing for Main-Memory Databases by Leis, Kemper and Neumann.</description>
+    </item>
+    <item>
+      <title>February 2022 readings</title>
+      <link>https://www.tomhoule.com/2022/2022-02-readings/</link>
+      <pubDate>Fri, 25 Feb 2022 00:00:00 +0000</pubDate>
+      <guid>https://www.tomhoule.com/2022/2022-02-readings/</guid>
+      <description>A bit more than a month and a half elapsed since last post. I haven&amp;rsquo;t been very diligent in writing here, so there are a bunch of things I read and watched that didn&amp;rsquo;t make it in this post.&#xA;General computer things Uninitialized Memory: Unsafe Rust is Too Hard, by Armin Ronacher.&#xA;This is a feeling I share. Zig is proposing some genuinely new ideas there. Alignment is easier to work with (@divExact).</description>
+    </item>
+    <item>
+      <title>December 2021 readings</title>
+      <link>https://www.tomhoule.com/2021/2021-12-readings/</link>
+      <pubDate>Fri, 31 Dec 2021 00:00:00 +0000</pubDate>
+      <guid>https://www.tomhoule.com/2021/2021-12-readings/</guid>
+      <description>I am starting an experiment: just document interesting things I read as a list from time to time. It&amp;rsquo;s already the twelvth, vacations are coming up, and I already did a lot of reading I haven&amp;rsquo;t documented, so I expect this month&amp;rsquo;s list to be pretty short.&#xA;Graphics A blog post, Physarum, by Sage Jenson — slime mold population generation, pretty cool looking. Re-read learn wgpu. Good tutorial! Databases &amp;amp; Distributed Systems Don&amp;rsquo;t Get Stuck in the &amp;ldquo;Con&amp;rdquo; Game, by Pat Helland.</description>
+    </item>
+    <item>
+      <title>A tiny wgpu app rendering directly to a video file</title>
+      <link>https://www.tomhoule.com/2021/wgpu-minimal-video-rendering-example/</link>
+      <pubDate>Sat, 11 Dec 2021 00:00:00 +0000</pubDate>
+      <guid>https://www.tomhoule.com/2021/wgpu-minimal-video-rendering-example/</guid>
+      <description>I had free time yesterday,so I continued my efforts to find a better creative coding setup. What came out of it is the tomhoule/wgpu-minimal-video-rendering-example GitHub repo.&#xA;I like how working on this feels: with mold, iteration time is pretty fast (recompilation + rendering and enconding in a &amp;lt; 5 seconds on my old laptop), and the artifacts are easy to share. It feels solid.&#xA;If you&amp;rsquo;re interested in this, just have a look at the repo.</description>
+    </item>
+    <item>
+      <title>Building Rust WASM projects with Nix</title>
+      <link>https://www.tomhoule.com/2021/building-rust-wasm-with-nix-flakes/</link>
+      <pubDate>Sat, 13 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>https://www.tomhoule.com/2021/building-rust-wasm-with-nix-flakes/</guid>
+      <description>Historically, there have been a number of approaches to the problem of building Rust projects with Nix1. The most common one these days is buildRustPackage. It integrates reasonably well with cargo and supports cross-compilation out of the box, but if you want to build a project targetting wasm32-unknown-unknown, you will not find much help online.&#xA;Since I recently had to figure that out for prisma-fmt-wasm, this will be a short post walking through a setup that works.</description>
+    </item>
+    <item>
+      <title>Logical Foundations, Calculus, updates on learning (with) theorem provers</title>
+      <link>https://www.tomhoule.com/2021/logical-foundations-impressions/</link>
+      <pubDate>Fri, 02 Apr 2021 00:00:00 +0000</pubDate>
+      <guid>https://www.tomhoule.com/2021/logical-foundations-impressions/</guid>
+      <description>I just finished Logical Foundations, the first part of the Software Foundations series. Since last time on this blog, I also completed chapter 2 of Calculus, with the exercises (most of them) done in Lean 3.&#xA;This post is a loose collection of impressions and learnings from a few more months spent working with theorem provers on my spare time.&#xA;Logical Foundations First, Logical Foundations is just great. I picked it up to learn Coq mainly, and as the natural path to the exciting Programming Language Foundations.</description>
+    </item>
+    <item>
+      <title>Leaning into Spivak&#39;s Calculus</title>
+      <link>https://www.tomhoule.com/2020/leaning-into-calculus-chapter-1/</link>
+      <pubDate>Sat, 14 Nov 2020 00:00:00 +0000</pubDate>
+      <guid>https://www.tomhoule.com/2020/leaning-into-calculus-chapter-1/</guid>
+      <description>This post contains three updates at different points in time on formalizing chapter 1 of Michael Spivak&amp;rsquo;s Calculus book and its problems in Lean.&#xA;You can find the proofs on GitHub.&#xA;Just starting On n’écrit qu’à la pointe de son savoir, à cette pointe extrême qui sépare notre savoir et notre ignorance, et qui fait passer l’un dans l’autre. C’est seulement de cette façon qu’on est déterminé à écrire.&#xA;(Différence et répétition, towards the beginning)</description>
+    </item>
+    <item>
+      <title>Custom Test Setup for Stateful Applications, featuring Proc Macros</title>
+      <link>https://www.tomhoule.com/2019/custom-test-setup-for-stateful-applications/</link>
+      <pubDate>Fri, 01 Nov 2019 00:00:00 +0000</pubDate>
+      <guid>https://www.tomhoule.com/2019/custom-test-setup-for-stateful-applications/</guid>
+      <description>The slides for a talk I gave at the Rust Berlin meetup introducing the some elements of our test setup at Prisma.&#xA;The slides are hosted here.</description>
+    </item>
+    <item>
+      <title>GraphQL Client Talk</title>
+      <link>https://www.tomhoule.com/2018/graphql-client-talk/</link>
+      <pubDate>Thu, 01 Nov 2018 00:00:00 +0000</pubDate>
+      <guid>https://www.tomhoule.com/2018/graphql-client-talk/</guid>
+      <description>The slides for a talk I gave at the Rust Berlin meetup introducing the graphql-client crate.&#xA;The slides are hosted here.</description>
+    </item>
+  </channel>
+</rss>

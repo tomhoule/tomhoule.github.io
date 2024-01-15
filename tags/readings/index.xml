@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>readings on Tom Houle&#39;s homepage</title>
+    <link>https://www.tomhoule.com/tags/readings/</link>
+    <description>Recent content in readings on Tom Houle&#39;s homepage</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 06 Jun 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.tomhoule.com/tags/readings/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Readings in 2023 — early June edition</title>
+      <link>https://www.tomhoule.com/2023/2023-06-readings/</link>
+      <pubDate>Tue, 06 Jun 2023 00:00:00 +0000</pubDate>
+      <guid>https://www.tomhoule.com/2023/2023-06-readings/</guid>
+      <description>I haven&amp;rsquo;t been good at doing these lists and collecting what I read recently, let&amp;rsquo;s try to come back to it.&#xA;Nix Nix: Reasonable Default Configs, down to earth config options for the nix tool. dream2nix is a structured, systematic effort to build the infrastructure for the management of language-specific dependencies (think npm, pip, cargo dependencies) in nix derivations. The state of the art is that each ecosystem has its own tools (npmlock2nix, crane, &amp;hellip;), some of them integrated in nixpkgs, many not.</description>
+    </item>
+    <item>
+      <title>March 2022 readings</title>
+      <link>https://www.tomhoule.com/2022/2022-03-readings/</link>
+      <pubDate>Thu, 31 Mar 2022 00:00:00 +0000</pubDate>
+      <guid>https://www.tomhoule.com/2022/2022-03-readings/</guid>
+      <description>Slow month, from the readings angle. But there&amp;rsquo;s been some side project movement I hope will result in something publishable and at least one blog post.&#xA;General Programming Re-watched &amp;ldquo;Performance Matters&amp;rdquo; by Emery Berger, strange loop 2019. Two tools to keep in mind for next time profiling:&#xA;STABILIZER tool to minimize the effect of memory layout on performance Causal profiling C-Reduce, paper and slides. Cool!&#xA;Databases The Adaptive Radix Tree: ARTful Indexing for Main-Memory Databases by Leis, Kemper and Neumann.</description>
+    </item>
+    <item>
+      <title>February 2022 readings</title>
+      <link>https://www.tomhoule.com/2022/2022-02-readings/</link>
+      <pubDate>Fri, 25 Feb 2022 00:00:00 +0000</pubDate>
+      <guid>https://www.tomhoule.com/2022/2022-02-readings/</guid>
+      <description>A bit more than a month and a half elapsed since last post. I haven&amp;rsquo;t been very diligent in writing here, so there are a bunch of things I read and watched that didn&amp;rsquo;t make it in this post.&#xA;General computer things Uninitialized Memory: Unsafe Rust is Too Hard, by Armin Ronacher.&#xA;This is a feeling I share. Zig is proposing some genuinely new ideas there. Alignment is easier to work with (@divExact).</description>
+    </item>
+    <item>
+      <title>December 2021 readings</title>
+      <link>https://www.tomhoule.com/2021/2021-12-readings/</link>
+      <pubDate>Fri, 31 Dec 2021 00:00:00 +0000</pubDate>
+      <guid>https://www.tomhoule.com/2021/2021-12-readings/</guid>
+      <description>I am starting an experiment: just document interesting things I read as a list from time to time. It&amp;rsquo;s already the twelvth, vacations are coming up, and I already did a lot of reading I haven&amp;rsquo;t documented, so I expect this month&amp;rsquo;s list to be pretty short.&#xA;Graphics A blog post, Physarum, by Sage Jenson — slime mold population generation, pretty cool looking. Re-read learn wgpu. Good tutorial! Databases &amp;amp; Distributed Systems Don&amp;rsquo;t Get Stuck in the &amp;ldquo;Con&amp;rdquo; Game, by Pat Helland.</description>
+    </item>
+  </channel>
+</rss>

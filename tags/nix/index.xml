@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>nix on Tom Houle&#39;s homepage</title>
+    <link>https://www.tomhoule.com/tags/nix/</link>
+    <description>Recent content in nix on Tom Houle&#39;s homepage</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 13 Nov 2021 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.tomhoule.com/tags/nix/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Building Rust WASM projects with Nix</title>
+      <link>https://www.tomhoule.com/2021/building-rust-wasm-with-nix-flakes/</link>
+      <pubDate>Sat, 13 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>https://www.tomhoule.com/2021/building-rust-wasm-with-nix-flakes/</guid>
+      <description>Historically, there have been a number of approaches to the problem of building Rust projects with Nix1. The most common one these days is buildRustPackage. It integrates reasonably well with cargo and supports cross-compilation out of the box, but if you want to build a project targetting wasm32-unknown-unknown, you will not find much help online.&#xA;Since I recently had to figure that out for prisma-fmt-wasm, this will be a short post walking through a setup that works.</description>
+    </item>
+  </channel>
+</rss>

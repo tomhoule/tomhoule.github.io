@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>linux on Tom Houle&#39;s homepage</title>
+    <link>https://www.tomhoule.com/tags/linux/</link>
+    <description>Recent content in linux on Tom Houle&#39;s homepage</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 16 Sep 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.tomhoule.com/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>strace with ChatGPT</title>
+      <link>https://www.tomhoule.com/2023/strace-with-chatgpt/</link>
+      <pubDate>Sat, 16 Sep 2023 00:00:00 +0000</pubDate>
+      <guid>https://www.tomhoule.com/2023/strace-with-chatgpt/</guid>
+      <description>Since ChatGPT is the trend of the moment, I had to check it out. There is a lot to say about it in general, but that won&amp;rsquo;t be the focus of this post.&#xA;Recently at work, a colleague asked how he could observe what files a process accesses, without modifying the program. Tracing tools like strace are the best answer I know to that question, and they apply to a lot more than observing file system access.</description>
+    </item>
+  </channel>
+</rss>

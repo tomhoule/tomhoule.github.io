@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>lean on Tom Houle&#39;s homepage</title>
+    <link>https://www.tomhoule.com/tags/lean/</link>
+    <description>Recent content in lean on Tom Houle&#39;s homepage</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 02 Apr 2021 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.tomhoule.com/tags/lean/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Logical Foundations, Calculus, updates on learning (with) theorem provers</title>
+      <link>https://www.tomhoule.com/2021/logical-foundations-impressions/</link>
+      <pubDate>Fri, 02 Apr 2021 00:00:00 +0000</pubDate>
+      <guid>https://www.tomhoule.com/2021/logical-foundations-impressions/</guid>
+      <description>I just finished Logical Foundations, the first part of the Software Foundations series. Since last time on this blog, I also completed chapter 2 of Calculus, with the exercises (most of them) done in Lean 3.&#xA;This post is a loose collection of impressions and learnings from a few more months spent working with theorem provers on my spare time.&#xA;Logical Foundations First, Logical Foundations is just great. I picked it up to learn Coq mainly, and as the natural path to the exciting Programming Language Foundations.</description>
+    </item>
+    <item>
+      <title>Leaning into Spivak&#39;s Calculus</title>
+      <link>https://www.tomhoule.com/2020/leaning-into-calculus-chapter-1/</link>
+      <pubDate>Sat, 14 Nov 2020 00:00:00 +0000</pubDate>
+      <guid>https://www.tomhoule.com/2020/leaning-into-calculus-chapter-1/</guid>
+      <description>This post contains three updates at different points in time on formalizing chapter 1 of Michael Spivak&amp;rsquo;s Calculus book and its problems in Lean.&#xA;You can find the proofs on GitHub.&#xA;Just starting On n’écrit qu’à la pointe de son savoir, à cette pointe extrême qui sépare notre savoir et notre ignorance, et qui fait passer l’un dans l’autre. C’est seulement de cette façon qu’on est déterminé à écrire.&#xA;(Différence et répétition, towards the beginning)</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>spivak-calculus on Tom Houle&#39;s homepage</title>
+    <link>https://www.tomhoule.com/tags/spivak-calculus/</link>
+    <description>Recent content in spivak-calculus on Tom Houle&#39;s homepage</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 14 Nov 2020 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.tomhoule.com/tags/spivak-calculus/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Leaning into Spivak&#39;s Calculus</title>
+      <link>https://www.tomhoule.com/2020/leaning-into-calculus-chapter-1/</link>
+      <pubDate>Sat, 14 Nov 2020 00:00:00 +0000</pubDate>
+      <guid>https://www.tomhoule.com/2020/leaning-into-calculus-chapter-1/</guid>
+      <description>This post contains three updates at different points in time on formalizing chapter 1 of Michael Spivak&amp;rsquo;s Calculus book and its problems in Lean.&#xA;You can find the proofs on GitHub.&#xA;Just starting On n’écrit qu’à la pointe de son savoir, à cette pointe extrême qui sépare notre savoir et notre ignorance, et qui fait passer l’un dans l’autre. C’est seulement de cette façon qu’on est déterminé à écrire.&#xA;(Différence et répétition, towards the beginning)</description>
+    </item>
+  </channel>
+</rss>

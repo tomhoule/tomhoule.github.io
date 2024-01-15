@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>wgpu on Tom Houle&#39;s homepage</title>
+    <link>https://www.tomhoule.com/tags/wgpu/</link>
+    <description>Recent content in wgpu on Tom Houle&#39;s homepage</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 11 Dec 2021 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.tomhoule.com/tags/wgpu/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>A tiny wgpu app rendering directly to a video file</title>
+      <link>https://www.tomhoule.com/2021/wgpu-minimal-video-rendering-example/</link>
+      <pubDate>Sat, 11 Dec 2021 00:00:00 +0000</pubDate>
+      <guid>https://www.tomhoule.com/2021/wgpu-minimal-video-rendering-example/</guid>
+      <description>I had free time yesterday,so I continued my efforts to find a better creative coding setup. What came out of it is the tomhoule/wgpu-minimal-video-rendering-example GitHub repo.&#xA;I like how working on this feels: with mold, iteration time is pretty fast (recompilation + rendering and enconding in a &amp;lt; 5 seconds on my old laptop), and the artifacts are easy to share. It feels solid.&#xA;If you&amp;rsquo;re interested in this, just have a look at the repo.</description>
+    </item>
+  </channel>
+</rss>
